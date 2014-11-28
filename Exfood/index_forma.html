@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ExFood</title>
+<link href="css/stylesheet_forma.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="top_bar_black">
+	<div id="logo_container">
+		<div id="top">ExFood</div>  
+		<div id="nav_block"> 
+			<div class="nav_button">Главная</a></div>
+			<div class="nav_button"> Контакты</div>
+			<div class="nav_button"> О нас</div>
+			<div class="nav_button"> Услуги</div>
+			<div class="nav_button"> Другое</div>
+		</div>
+	</div> 
+</div>
+<div id="content_container">
+    <form action="formdata.php" method="POST" name="form1">
+		<fieldset>
+		<legend>Генерация штрих-кода</legend>
+		<p class="question"><label for="name">Номер штрих-кода:</label></p>
+		<p><input class="input" type="text" name="name" id="name" size="30"></p>
+		
+		<p class="question"><label for="product">Название продукта:</label></p>
+		<p><input class="input" type="text" id="product" name="name" size="30"></p>
+		
+		<p class="question"><label for="proteins">Белки:</label></p>
+		<p><input class="input" type="text" id="proteins" name="name" size="30"></p>
+		
+		<p class="question"><label for="fats">Жиры:</label></p>
+		<p><input class="input" type="text" id="fats" name="name" size="30"></p>
+		
+		<p class="question"><label for="carbohydrates">Углеводы:</label></p>
+		<p><input class="input" type="text" id="carbohydrates" name="name" size="30"></p>
+		
+		<p class="question"><label for="manufacturer">Производитель:</label></p>
+		<p><input class="input" type="text" id="manufacturer" name="name" size="30"></p>
+		
+		<p class="question"><label for="e">Ешки:</label></p>
+		<p><input class="input" type="text" id="e" name="name" size="30"></p>
+		</fieldset>
+		<p class="but"><input type="reset" name="reset" value="Сброс"><input type="submit" name="submit" value="Отправить"></p>
+	</form>
+</div>
+        
+        
+        
+<div id="bottom_bar_black"> 
+	<div id="main_container">
+		<div id="header_lower">
+			<div id="header_content_lowerline">Контакты
+				<div id="header_content_lowerboxcontent">вул.Янгеля 16/2<br />
+				andriy.vasul@mail.ru<br />
+				www.ExFood.com<br />
+				098 289 90 34<BR /> 
+				</div>
+			</div> 
+		</div>
+	</div> 
+</div>
+</body>
+</html>
